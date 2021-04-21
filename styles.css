@@ -1,0 +1,64 @@
+.screen {
+    background-color: black;
+    width: 19.5rem;
+    color: white;
+    font-size: 40px;
+    font-family: "Courier New", Courier, monospace;
+    text-align: right;
+    padding: 20px 5px;
+}
+
+.first-row {
+    display: grid;
+    grid-template-columns: 10em 5em 5em;
+    grid-template-rows: 5em;
+
+}
+
+.second-row {
+    display: grid;
+    grid-template-columns: 5em 5em 5em 5em;
+    grid-template-rows: 5em;
+
+}
+
+.third-row {
+    display: grid;
+    grid-template-columns: 5em 5em 5em 5em;
+    grid-template-rows: 5em;
+
+}
+
+.fourth-row {
+    display: grid;
+    grid-template-columns: 5em 5em 5em 5em;
+    grid-template-rows: 5em;
+
+}
+
+.fifth-row {
+    display: grid;
+    grid-template-columns: 15em 5em;
+    grid-template-rows: 5em;
+
+}
+
+.container {
+    display: grid;
+    grid-template-rows: auto;
+}
+
+button{
+    background-color: lightgray;
+    border: 1px solid black;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+
+.diffbutton {
+    background-color: rgb(192, 110, 56);
+    color: rgb(252, 252, 252);
+}
